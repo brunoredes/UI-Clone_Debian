@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background-color: #f1f0f0;
+}
+
+#nav-mobile li a i,
+#nav-mobile .input-field .label-icon i {
+  color: rgb(201, 0, 54);
+}
+
+.nav-wrapper {
+  background-image: linear-gradient(rgba(215, 217, 226), #eceff1);
+}
+
+.nav-wrapper .brand-logo {
+  height: 100%;
+}
+
+.nav-wrapper a img {
+  width: 100%;
+}
+
+.nav-wrapper #bread {
+  height: 100%;
+  width: 20%;
+  background-color: #f1f0f0;
+}
+
+.collection-news {
+  border-radius: 80px;
+}
+
+.collection .title {
+  font-weight: 600;
+}
+
+#landing-news-page {
+  background-color: #f1f0f0;
+  height: 110vh;
+}
+
+#landing-news-page .collection {
+  border-radius: 8px;
+}
+
+#bread-row {
+  background-color: #858c8f !important;
+}
+
+.nav-wrapper .input-field input[type=search] {
+  height: 9vh !important;
+  padding-left: 4rem;
+  width: calc(100% - 4rem);
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.quote-starting {
+  color: rgb(201, 0, 54);
+}
+
+#container-home-full {
+  /* background-color: #78909c; */
+  /* background-color: #ccc8c8; */
+  background-color: #f1f0f0;
+
+  /* background-color: #b1babe; */
+  /* border-radius: 4px; */
+}
+
+#landing-home-page {
+  /* background-color: #cdc9c9; */
+  background-color: #f1f0f0;
+
+  width: 60vw !important;
+}
+
+.debian-download {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.splash {
+  background-image: url('./assets/images/debian-fundo.webp');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  text-align: center;
+  overflow: hidden;
+  height: 120px;
+  width: 100%;
+  position: relative;
+}
+
+.splash h1 {
+  background-image: url('./assets/images/debian-frente.webp');
+  background-position: top center;
+  padding-top: 130px;
+  overflow: hidden;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+  height: 0;
+  position: relative;
+}
+
+#download-debian {
+  margin-top: -15%;
+  position: relative !important;
+  border: 0;
+}
+
+footer {
+  background-color: #bbb3b3 !important;
+  padding-top: 52%;
+}
+
+@media(max-width: 640px) {
+  #download-debian {
+    margin-top: -5%;
+    position: relative !important;
+    border: 0;
+  }
+}
